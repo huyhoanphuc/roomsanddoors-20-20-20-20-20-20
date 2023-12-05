@@ -9,8 +9,6 @@ Achievements.Get({
     Image = "11867753039/meme-hamster-xd",
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanphuc/autorooms/main/README.md", true))()
-
 --[=[
 @class txt
 This is my First Class
@@ -350,7 +348,7 @@ end)
 
 
 
-    Singleplayer = false -- Runs more Then 1 Player Code
+    Singleplayer = true -- Runs more Then 1 Player Code
 else
     print("Loaded in print Multiplayer") -- loaded in 1 player
     repeat task.wait()
@@ -377,7 +375,7 @@ RanWait2=""
                 local entity2 = Creator.createEntity({
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
-                    Speed = 6000, -- Percentage, 100 = default Rush speed
+                    Speed = 300, -- Percentage, 100 = default Rush speed
                     DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
@@ -434,7 +432,7 @@ RanWait2=""
     end
 
     function VhsSasSpawn()
-        while true do wait(65)
+        while true do wait(70)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -442,12 +440,12 @@ RanWait2=""
                 local entity5 = Creator.createEntity({
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 6000, -- Percentage, 100 = default Rush speed
+                    Speed = 300, -- Percentage, 100 = default Rush speed
                     DelayTime = 2, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
-                    BreakLights = true,
+                    BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
@@ -499,7 +497,7 @@ RanWait2=""
     end
 
     function VhsSaisSpawn()
-        while true do wait(70)
+        while true do wait(570)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -507,16 +505,16 @@ RanWait2=""
                 local entity6 = Creator.createEntity({
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 10000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 1, -- Time before starting cycles (seconds)
+                    Speed =300, -- Percentage, 100 = default Rush speed
+                    DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 1,
                     CanKill = true,
                     KillRange = 100000,
-                    BreakLights = true,
+                    BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        1, -- Time (seconds)
+                        3, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
@@ -561,72 +559,7 @@ RanWait2=""
                 -- Run the created entity
             end)
         end
-    end
-
-    function VhsSiasSpawn()
-        while true do wait(75)
-            pcall(function()
-                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
-
-                -- Create entity
-                local entity7 = Creator.createEntity({
-                    CustomName = "Primes A-60", -- Custom name of your entity
-                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 60000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 0.5, -- Time before starting cycles (seconds)
-                    HeightOffset = 4,
-                    CanKill = true,
-                    KillRange = 100000,
-                    BreakLights = true,
-                    BackwardsMovement = false,
-                    FlickerLights = {
-                        true, -- Enabled/Disabled
-                        0.5, -- Time (seconds)
-                    },
-                    Cycles = {
-                        Min = 1,
-                        Max = 1,
-                        WaitTime = 0,
-                    },
-                    CamShake = {
-                        true, -- Enabled/Disabled
-                        {400.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
-                        100, -- Shake start distance (from Entity to you)
-                    },
-                    Jumpscare = {
-                        true, -- Enabled/Disabled
-                        {
-                            Image1 = "rbxassetid://11131703032", -- Image1 url
-                            Image2 = "rbxassetid://3413871766", -- Image2 url
-                            Shake = true,
-                            Sound1 = {
-                                3537873683, -- SoundId
-                                { Volume = 2 }, -- Sound properties
-                            },
-                            Sound2 = {
-                                5263560566, -- SoundId
-                                { Volume = 0.5 }, -- Sound properties
-                            },
-                            Flashing = {
-                                true, -- Enabled/Disabled
-                                Color3.fromRGB(255,0,0), -- Color
-                            },
-                            Tease = {
-                                true, -- Enabled/Disabled
-                                Min = 1,
-                                Max = 1,
-                            },
-                        },
-                    },
-                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
-                })
-
-                ------------------------
-                Creator.runEntity(entity7)
-                -- Run the created entity
-            end)
-        end
-    end
+    end    
 
 
 
@@ -664,8 +597,4 @@ end)
 pcall(function()
 local VhsSaisPas = coroutine.wrap(VhsSaisSpawn)
 VhsSaisPas()
-end)
-pcall(function()
-local VhsSiasPas = coroutine.wrap(VhsSiasSpawn)
-VhsSiasPas()
 end)
