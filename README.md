@@ -447,7 +447,7 @@ RanWait2=""
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 30,
-                    BreakLights = true,
+                    BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
@@ -512,7 +512,7 @@ RanWait2=""
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 30,
-                    BreakLights = true,
+                    BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
