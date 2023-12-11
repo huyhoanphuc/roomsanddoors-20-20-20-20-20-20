@@ -566,7 +566,7 @@ RanWait2=""
     function VhsSanhSpawn()
         while true do 
         
-            wait(40)
+            wait(100)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -633,7 +633,7 @@ RanWait2=""
     function TrakuSpawn()
         while true do 
         
-            wait(40)
+            wait(100)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
