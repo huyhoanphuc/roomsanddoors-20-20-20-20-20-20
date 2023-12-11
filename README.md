@@ -561,70 +561,139 @@ RanWait2=""
                 -- Run the created entity
             end)
         end
-    end
+    end    
+    
+    function VhsSanhSpawn()
+        while true do 
+        
+            wait(40)
+            local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
-    function VhsSiasSpawn()
-        while true do wait(150)
-            pcall(function()
-                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
-
-                -- Create entity
-                local entity7 = Creator.createEntity({
-                    CustomName = "Primes A-60", -- Custom name of your entity
-                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 300, -- Percentage, 100 = default Rush speed
-                    DelayTime = 3, -- Time before starting cycles (seconds)
-                    HeightOffset = 2,
-                    CanKill = true,
-                    KillRange = 30,
-                    BreakLights = false,
-                    BackwardsMovement = false,
-                    FlickerLights = {
-                        true, -- Enabled/Disabled
-                        0.1, -- Time (seconds)
-                    },
-                    Cycles = {
-                        Min = 1,
-                        Max = 1,
-                        WaitTime = 0,
-                    },
-                    CamShake = {
-                        true, -- Enabled/Disabled
-                        {400.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
-                        100, -- Shake start distance (from Entity to you)
-                    },
-                    Jumpscare = {
-                        true, -- Enabled/Disabled
-                        {
-                            Image1 = "rbxassetid://11131703032", -- Image1 url
-                            Image2 = "rbxassetid://3413871766", -- Image2 url
-                            Shake = true,
-                            Sound1 = {
-                                3537873683, -- SoundId
-                                { Volume = 2 }, -- Sound properties
-                            },
-                            Sound2 = {
-                                6459610652, -- SoundId
-                                { Volume = 0.5 }, -- Sound properties
-                            },
-                            Flashing = {
-                                true, -- Enabled/Disabled
-                                Color3.fromRGB(255,0,0), -- Color
-                            },
-                            Tease = {
-                                true, -- Enabled/Disabled
-                                Min = 1,
-                                Max = 1,
-                            },
+            -- Create entity
+            local entity4 = Creator.createEntity({
+                CustomName = "Red skull", -- Custom name of your entity
+                Model = "rbxassetid://11637039767", -- Can be GitHub file or rbxassetid
+                Speed = 10000, -- Percentage, 100 = default Rush speed
+                DelayTime = 1,
+            KillRange= 10000,-- Time before starting cycles (seconds)
+            HeightOffset = 20,
+            CanKill = true,
+            BreakLights = false,
+                BackwardsMovement = false,
+                FlickerLights = {
+                    false, -- Enabled/Disabled
+                    0, -- Time (seconds)
+                },
+                Cycles = {
+                    Min = 1,
+                    Max = 1,
+                    WaitTime = 0,
+                },
+                CamShake = {
+                    true, -- Enabled/Disabled
+                    {5.5, 50, 0.5, 2}, -- Shake values (don't change if you don't know)
+                    100, -- Shake start distance (from Entity to you)
+                },
+                Jumpscare = {
+                    true, -- Enabled/Disabled
+                    {
+                        Image1 = " rbxassetid://0", -- Image1 url
+                        Image2 = "rbxassetid://0", -- Image2 url
+                        Shake = true,
+                        Sound1 = {
+                            0, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Sound2 = {
+                            3537873683, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Flashing = {
+                            true, -- Enabled/Disabled
+                            Color3.fromRGB(6, 38, 135), -- Color
+                        },
+                        Tease = {
+                            true, -- Enabled/Disabled
+                            Min = 1,
+                            Max = 3,
                         },
                     },
-                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
-                })
+                },
+                CustomDialog = {"YOU DIE TO RED SKULL IS CAN YOU HACKER 😂"}, -- Custom death message
+            })
 
-                ------------------------
-                Creator.runEntity(entity7)
-                -- Run the created entity
-            end)
+            -----[[ Advanced ]]-----
+            ------------------------
+
+            -- Run the created entity
+            Creator.runEntity(entity4)
+        end
+    end
+
+    function TrakuSpawn()
+        while true do 
+        
+            wait(40)
+            local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+            -- Create entity
+            local Traku = Creator.createEntity({
+                CustomName = "Red skull", -- Custom name of your entity
+                Model = "rbxassetid://11637039767", -- Can be GitHub file or rbxassetid
+                Speed = 10000, -- Percentage, 100 = default Rush speed
+                DelayTime = 0.1,
+            KillRange= 10000,-- Time before starting cycles (seconds)
+            HeightOffset = -20,
+            CanKill = true,
+            BreakLights = false,
+                BackwardsMovement = false,
+                FlickerLights = {
+                    false, -- Enabled/Disabled
+                    0, -- Time (seconds)
+                },
+                Cycles = {
+                    Min = 1,
+                    Max = 1,
+                    WaitTime = 0,
+                },
+                CamShake = {
+                    true, -- Enabled/Disabled
+                    {5.5, 50, 0.5, 2}, -- Shake values (don't change if you don't know)
+                    100, -- Shake start distance (from Entity to you)
+                },
+                Jumpscare = {
+                    true, -- Enabled/Disabled
+                    {
+                        Image1 = " rbxassetid://0", -- Image1 url
+                        Image2 = "rbxassetid://0", -- Image2 url
+                        Shake = true,
+                        Sound1 = {
+                            0, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Sound2 = {
+                            3537873683, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Flashing = {
+                            true, -- Enabled/Disabled
+                            Color3.fromRGB(6, 38, 135), -- Color
+                        },
+                        Tease = {
+                            true, -- Enabled/Disabled
+                            Min = 1,
+                            Max = 3,
+                        },
+                    },
+                },
+                CustomDialog = {"YOU DIE TO RED SKULL IS CAN YOU HACKER 😂"}, -- Custom death message
+            })
+
+            -----[[ Advanced ]]-----
+            ------------------------
+
+            -- Run the created entity
+            Creator.runEntity(Traku)
         end
     end
 
@@ -704,7 +773,7 @@ end)
 workspace.ChildAdded:Connect(function(seek)
 	if seek.Name == "SeekMoving" then
 		firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "I feel like im being watched...")
-		wait(0.5)
+		wait(0.9)
 		seek.SeekRig.Head.Eye.Decal.Texture = "rbxassetid://11523633591"
 		seek.Figure.Scream.SoundId = "rbxassetid://9113985604"
 		seek.Figure.Scream.Pitch = 2.8
