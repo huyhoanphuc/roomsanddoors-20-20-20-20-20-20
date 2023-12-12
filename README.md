@@ -369,7 +369,7 @@ Lowest = tonumber(Lowest)
 Stop=Lowest
 RanWait2=""
     function VhsSansSpawn()
-        while true do wait(60)
+        while true do wait(120)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -378,7 +378,7 @@ RanWait2=""
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20v2.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 30,
@@ -434,7 +434,7 @@ RanWait2=""
     end
     
     function VhsSasSpawn()
-        while true do wait(70)
+        while true do wait(180)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -443,7 +443,7 @@ RanWait2=""
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 30,
@@ -499,7 +499,7 @@ RanWait2=""
     end
 
     function VhsSaisSpawn()
-        while true do wait(590)
+        while true do wait(790)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -508,7 +508,7 @@ RanWait2=""
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 5,
                     CanKill = true,
                     KillRange = 30,
