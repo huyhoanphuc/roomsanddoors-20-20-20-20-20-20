@@ -440,11 +440,11 @@ RanWait2=""
 
                 -- Create entity
                 local entity5 = Creator.createEntity({
-                    CustomName = "Primes A-60", -- Custom name of your entity
-                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    CustomName = "Prime A-60", -- Custom name of your entity
+                    Model = "12701752918", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
                     DelayTime = 3, -- Time before starting cycles (seconds)
-                    HeightOffset = 2,
+                    HeightOffset = 4,
                     CanKill = true,
                     KillRange = 30,
                     BreakLights = false,
@@ -505,8 +505,8 @@ RanWait2=""
 
                 -- Create entity
                 local entity6 = Creator.createEntity({
-                    CustomName = "Primes A-60", -- Custom name of your entity
-                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    CustomName = "prime A-60", -- Custom name of your entity
+                    Model = "12701752918", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
                     DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 5,
