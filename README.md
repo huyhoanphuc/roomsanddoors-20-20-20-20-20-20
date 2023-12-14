@@ -434,7 +434,7 @@ RanWait2=""
     end
     
     function VhsSasSpawn()
-        while true do wait(180)
+        while true do wait(136)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
