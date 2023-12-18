@@ -376,7 +376,7 @@ RanWait2=""
                 -- Create entity
                 local entity2 = Creator.createEntity({
                     CustomName = "A-60", -- Custom name of your entity
-                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20v2.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    Model = "12158931101", -- Can be GitHub file or rbxassetid
                     Speed = 500, -- Percentage, 100 = default Rush speed
                     DelayTime = 3, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
