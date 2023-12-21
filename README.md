@@ -639,10 +639,10 @@ end)
 workspace.ChildAdded:Connect(function(seek)
 	if seek.Name == "SeekMoving" then
 		firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "I feel like im being watched...")
-		wait(0.9)
+		wait(0.3)
 		seek.SeekRig.Head.Eye.Decal.Texture = "rbxassetid://11523633591"
 		seek.Figure.Scream.SoundId = "rbxassetid://9113985604"
-		seek.Figure.Scream.Pitch = 2.8
+		seek.Figure.Scream.Pitch = 1.0
 		workspace.Ambience_Seek.SoundId = "rbxassetid://12956586020"
 		seek.Figure.Scream.RollOffMaxDistance = 10000
 		seek.Figure.Scream.RollOffMinDistance = 10
