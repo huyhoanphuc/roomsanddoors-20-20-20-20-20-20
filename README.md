@@ -562,6 +562,72 @@ RanWait2=""
             end)
         end
     end        
+    
+    function VhsSairSpawn()
+        while true do wait(216)
+            pcall(function()
+                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+                -- Create entity
+                local entity6 = Creator.createEntity({
+                    CustomName = "A-120", -- Custom name of your entity
+                    Model = "12769022054", -- Can be GitHub file or rbxassetid
+                    Speed = 50, -- Percentage, 100 = default Rush speed
+                    DelayTime = 3, -- Time before starting cycles (seconds)
+                    HeightOffset = 5,
+                    CanKill = true,
+                    KillRange = 300,
+                    BreakLights = false,
+                    BackwardsMovement = false,
+                    FlickerLights = {
+                        fasle, -- Enabled/Disabled
+                        0.1, -- Time (seconds)
+                    },
+                    Cycles = {
+                        Min = 1,
+                        Max = 3,
+                        WaitTime = 0,
+                    },
+                    CamShake = {
+                        true, -- Enabled/Disabled
+                        {5.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        100, -- Shake start distance (from Entity to you)
+                    },
+                    Jumpscare = {
+                        false, -- Enabled/Disabled
+                        {
+                            Image1 = "rbxassetid://11131703032", -- Image1 url
+                            Image2 = "rbxassetid://3413871766", -- Image2 url
+                            Shake = true,
+                            Sound1 = {
+                                3537873683, -- SoundId
+                                { Volume = 2 }, -- Sound properties
+                            },
+                            Sound2 = {
+                                6459610652, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Flashing = {
+                                true, -- Enabled/Disabled
+                                Color3.fromRGB(255,0,0), -- Color
+                            },
+                            Tease = {
+                                true, -- Enabled/Disabled
+                                Min = 1,
+                                Max = 1,
+                            },
+                        },
+                    },
+                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                })
+
+                ------------------------
+                Creator.runEntity(entity6)
+                -- Run the created entity
+            end)
+        end
+    end        
+
 
 
 
@@ -611,6 +677,10 @@ end)
 pcall(function()
 local VhsSaisPas = coroutine.wrap(VhsSaisSpawn)
 VhsSaisPas()
+end)
+pcall(function()
+local VhsSairPas = coroutine.wrap(VhsSairSpawn)
+VhsSairPas()
 end)
 pcall(function()
 local VhsSiasPas = coroutine.wrap(VhsSiasSpawn)
