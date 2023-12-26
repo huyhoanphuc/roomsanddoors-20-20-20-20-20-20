@@ -425,6 +425,19 @@ RanWait2=""
                     },
                     CustomDialog = {"You died to who you call A-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
+                
+-----[[  Debug -=- Advanced  ]]-----
+
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "A-60 can run",
+    Desc = "You is hide",
+    Reason = 'HIDE!!',
+    Image = "12209846418/meme-hamster-xd",
+})                                
 
                 ------------------------
                 Creator.runEntity(entity2)
@@ -490,6 +503,19 @@ RanWait2=""
                     },
                     CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
+                
+-----[[  Debug -=- Advanced  ]]-----
+
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "PRIME A-60 can run",
+    Desc = "You is hide",
+    Reason = 'HIDE!!',
+    Image = "14005270404/meme-hamster-xd",
+})                                 
 
                 ------------------------
                 Creator.runEntity(entity5)
@@ -555,6 +581,19 @@ RanWait2=""
                     },
                     CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
+                
+-----[[  Debug -=- Advanced  ]]-----
+
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "PRIME A-60 can run",
+    Desc = "You is hide",
+    Reason = 'HIDE!!',
+    Image = "14005270404/meme-hamster-xd",
+})                                       
 
                 ------------------------
                 Creator.runEntity(entity6)
@@ -620,6 +659,19 @@ RanWait2=""
                     },
                     CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
+                
+-----[[  Debug -=- Advanced  ]]-----
+
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "A-120 can run",
+    Desc = "You is hide",
+    Reason = 'HIDE!!',
+    Image = "15748282666/meme-hamster-xd",
+})                                       
 
                 ------------------------
                 Creator.runEntity(entity6)
