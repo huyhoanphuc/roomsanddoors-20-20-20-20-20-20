@@ -107,7 +107,7 @@ local TestMultplayer = true
 if game:GetService("ReplicatedStorage"):FindFirstChild("Extacuted") then
     warn("You have Already Loaded")
 
-    return false
+    return true
 end
 local Test = Instance.new("Part")
 Test.Name = "Extacuted"
