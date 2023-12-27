@@ -104,13 +104,13 @@ local NightmareAmbush ={
 caa = 0
 tween = game:GetService("TweenService")
 local TestMultplayer = true
-if game:GetService("ReplicatedStorage"):FindFirstChild("Extacuted") then
+if game:GetService("ReplicatedStorage"):FindFirstChild("Extacutef") then
     warn("You have Already Loaded")
 
     return true
 end
 local Test = Instance.new("Part")
-Test.Name = "Extacuted"
+Test.Name = "Extacutef"
 Test.Parent = game:GetService("ReplicatedStorage")
 Test = 1
 
@@ -312,13 +312,13 @@ if PlayersIngame > 1 then -- if more then one then waits for link
 
 
     game.StarterGui:SetCore("ChatMakeSystemMessage", {
-        Text = "Doors Hard Mode ON! By MuhammadGames (MuhammadGames#0017) and Volta (volta#2161)",
+        Text = "Doors RND Mode ON! By PrIme A-60 (A600399)",
         Color = Color3.fromRGB(255, 0, 0),
         Font = Enum.Font.SourceSansBold,
         TextSize = 18,
     })
 
-    Gui("HardMode","+1000","Hard Mode (Doesn't add Nobs)")
+    Gui("RNDMode","+1000","RND Mode (Doesn't add Nobs)")
 
     print("Loaded, Wating to Link to Multplayer") -- waiting to link
 
@@ -603,7 +603,7 @@ Achievements.Get({
     end        
     
     function VhsySairSpawn()
-        while true do wait(230)
+        while true do wait(240)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -624,7 +624,7 @@ Achievements.Get({
                     },
                     Cycles = {
                         Min = 1,
-                        Max = 3,
+                        Max = 1,
                         WaitTime = 0,
                     },
                     CamShake = {
