@@ -1,4 +1,4 @@
--- Achievement
+l-- Achievement
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 
 -- Creates and displays your custom achievement
@@ -429,17 +429,6 @@ RanWait2=""
                 
 -----[[  Debug -=- Advanced  ]]-----
 
--- Achievement
-local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
--- Creates and displays your custom achievement
-Achievements.Get({
-    Title = "A-60 can run",
-    Desc = "You is hide",
-    Reason = 'HIDE!!',
-    Image = "12209846418/meme-hamster-xd",
-})                                
-
                 ------------------------
                 Creator.runEntity(entity2)
                 -- Run the created entity
@@ -507,17 +496,6 @@ Achievements.Get({
                 
 -----[[  Debug -=- Advanced  ]]-----
 
--- Achievement
-local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
--- Creates and displays your custom achievement
-Achievements.Get({
-    Title = "PRIME A-60 can run",
-    Desc = "You is hide",
-    Reason = 'HIDE!!',
-    Image = "14005270404/meme-hamster-xd",
-})                                 
-
                 ------------------------
                 Creator.runEntity(entity5)
                 -- Run the created entity
@@ -584,17 +562,6 @@ Achievements.Get({
                 })
                 
 -----[[  Debug -=- Advanced  ]]-----
-
--- Achievement
-local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
--- Creates and displays your custom achievement
-Achievements.Get({
-    Title = "PRIME A-60 can run",
-    Desc = "You is hide",
-    Reason = 'HIDE!!',
-    Image = "14005270404/meme-hamster-xd",
-})                                       
 
                 ------------------------
                 Creator.runEntity(entity6)
