@@ -579,11 +579,11 @@ RanWait2=""
                 local entity6 = Creator.createEntity({
                     CustomName = "A-120", -- Custom name of your entity
                     Model = "12769022054", -- Can be GitHub file or rbxassetid
-                    Speed = 50, -- Percentage, 100 = default Rush speed
-                    DelayTime = 3, -- Time before starting cycles (seconds)
+                    Speed = 200, -- Percentage, 100 = default Rush speed
+                    DelayTime = 1, -- Time before starting cycles (seconds)
                     HeightOffset = 5,
                     CanKill = true,
-                    KillRange = 300,
+                    KillRange = 1000,
                     BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
