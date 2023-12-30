@@ -630,6 +630,17 @@ RanWait2=""
                 
 -----[[  Debug -=- Advanced  ]]-----                                       
 
+-- Achievement
+local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
+
+-- Creates and displays your custom achievement
+Achievements.Get({
+    Title = "A-120",
+    Desc = "Hide",
+    Reason = 'Hide',
+    Image = "11867753039/meme-hamster-xd",
+})
+
                 ------------------------
                 Creator.runEntity(entity6)
                 -- Run the created entity
