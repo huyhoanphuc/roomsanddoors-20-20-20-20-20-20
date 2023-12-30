@@ -625,7 +625,7 @@ RanWait2=""
                             },
                         },
                     },
-                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                    CustomDialog = {"You died to who you call A-120...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
                 
 -----[[  Debug -=- Advanced  ]]-----                                       
